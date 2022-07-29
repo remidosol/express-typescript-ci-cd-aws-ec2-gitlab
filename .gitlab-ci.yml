@@ -1,0 +1,10 @@
+stages:
+  - build-deploy
+
+build-deploy:
+  stage: build-deploy
+  image: alpine:latest
+  script:
+    - chmod og= $SSH_PRIVATE_KEY
+    - apk update && apk add openssh-client
+    - ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no $STAGE_SERVER_USER@$STAGE_SERVER_IP "sh $CI_SCRIPT_PATH"
