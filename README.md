@@ -71,7 +71,7 @@ pm2 start 0
 ```
 </details>
 
-After build process, there would be a folder named `dist`. This is output directory that would be created as consequence of compiling app.ts file to app.js file. In addition, there will be a [`html`](./index.html) file too.
+After build process, there would be a folder named `dist`. This is output directory that would be created as consequence of compiling app.ts file to app.js file. In addition, there will be a [`html`](./index.html) file too (cf. [`package.json`](./package.json)).
 
 <details>
   <summary>For the enthusiasts :)</summary>
