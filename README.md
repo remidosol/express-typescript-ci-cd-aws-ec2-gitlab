@@ -50,8 +50,12 @@ build-deploy: #3
 
 <hr>
 
+After build process, there would be a folder named `dist`. This is output directory that would be created as consequence of compiling app.ts file to app.js file. In addition, there will be a [`html`](./index.html) file too (cf. [`package.json` build script](./package.json)).
+
+<hr>
+
 <details id="shScript">
-  <summary>SH Script</summary>
+  <summary>SH Script Example</summary>
 
 #### If you use it, please consider to change paths :)
 ```sh
@@ -72,8 +76,6 @@ sudo systemctl start nginx
 pm2 start 0
 ```
 </details>
-
-After build process, there would be a folder named `dist`. This is output directory that would be created as consequence of compiling app.ts file to app.js file. In addition, there will be a [`html`](./index.html) file too (cf. [`package.json` build script](./package.json)).
 
 <hr>
 
