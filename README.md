@@ -118,6 +118,9 @@ After build process, there would be a folder named `dist`. This is output direct
 - [How to Set Variables In Your GitLab CI Pipelines](https://www.howtogeek.com/devops/how-to-set-variables-in-your-gitlab-ci-pipelines/)
 - [How To Deliver HTML Files with Express](https://www.digitalocean.com/community/tutorials/use-expressjs-to-deliver-html-files)
 - [The `.gitlab-ci.yml` file](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
+- [How to create AWS EC2 Instance | Step by Step Tutorial | AWS EC2](https://www.youtube.com/watch?v=oqHfiRzxunY)
+- [Deploy Node app on AWS EC2 Amazon Linux 2](https://www.youtube.com/watch?v=oHAQ3TzUTro&t=5s)
+
 
 If you use [YAML extension (`redhat.vscode-yaml`)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml), 
 you may add this as attr to your settings.json file for a little help:
