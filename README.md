@@ -48,6 +48,8 @@ build-deploy: #3
 #### #9
 - Then we execute ssh command that executes sh script in remote server.
 
+<hr>
+
 <details id="shScript">
   <summary>SH Script</summary>
 
@@ -72,6 +74,8 @@ pm2 start 0
 </details>
 
 After build process, there would be a folder named `dist`. This is output directory that would be created as consequence of compiling app.ts file to app.js file. In addition, there will be a [`html`](./index.html) file too (cf. [`package.json` build script](./package.json)).
+
+<hr>
 
 <details>
   <summary>For the enthusiasts :)</summary>
