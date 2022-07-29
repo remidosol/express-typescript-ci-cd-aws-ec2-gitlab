@@ -1,16 +1,20 @@
 import express, { Express, Request, Response } from "express";
+import path from 'path';
 import dotenv from "dotenv";
 
 dotenv.config();
 
 const app: Express = express();
-const port = process.env.PORT;
+const host = process.env.HOST!;
+const port = +process.env.PORT!;
 
-app.get("/", (_req: Request, res: Response) => {
-  res.send("Express + TypeScript Server is running!");
+
+app.listen(port, host, () => {
+    console.log(`⚡️[server]: Server is running at http://${host}:${port}`);
 });
 
 
-app.listen(port, () => {
-    console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
+
+app.get("/", (_req: Request, res: Response) => {
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
