@@ -122,6 +122,9 @@ After build process, there would be a folder named `dist`. This is output direct
 - [Deploy Node app on AWS EC2 Amazon Linux 2](https://www.youtube.com/watch?v=oHAQ3TzUTro&t=5s)
 
 
+<hr>
+
+
 If you use [YAML extension (`redhat.vscode-yaml`)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml), 
 you may add this as attr to your settings.json file for a little help:
 ```json
