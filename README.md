@@ -32,7 +32,7 @@ build-deploy: #3
 #### #5
 - We specify the Docker image that will be running to execute our scripts.
 - I came across the usage of alpine image, there were ssh executions in the example of `.gitlab-ci.yml` file that's why I choosed it.
-- There are many images in [Docker Hub](hub.docker.com) for many of usage.
+- There are many images in [Docker Hub](https://hub.docker.com) for many of usage.
 
 #### #6
 - This part is most important part for me. Because, the scripts that we want to execute when pipeline is triggered place under of this field.
