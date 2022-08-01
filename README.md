@@ -87,7 +87,7 @@ pm2 start 0
 # NGINX INSTALL (https://www.nginx.com/blog/setting-up-nginx/#install-nginx)
 
 # NGINX CONFIGURATION (https://dev.to/romainlanz/deploy-your-adonis-website-17ec)
-# sudo vim /etc/nginx/conf.d/your-ipv4-dns.conf
+sudo vim /etc/nginx/conf.d/your-ipv4-dns.conf
 ```
 
 ```conf
