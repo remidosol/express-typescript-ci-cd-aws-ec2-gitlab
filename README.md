@@ -83,7 +83,8 @@ pm2 start 0
   <summary>For the enthusiasts :)</summary>
 
 #### If you use it, please consider to change paths :)
-```sh
+
+```bash
 # NGINX INSTALL (https://www.nginx.com/blog/setting-up-nginx/#install-nginx)
 
 # NGINX CONFIGURATION (https://dev.to/romainlanz/deploy-your-adonis-website-17ec)
