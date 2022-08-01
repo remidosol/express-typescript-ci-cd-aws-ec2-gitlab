@@ -88,23 +88,25 @@ pm2 start 0
 
 # NGINX CONFIGURATION (https://dev.to/romainlanz/deploy-your-adonis-website-17ec)
 # sudo vim /etc/nginx/conf.d/your-ipv4-dns.conf
+```
 
-# server {
-  # listen 80 default_server;
-  # listen [::]:80 default_server;
+```conf
+server {
+  listen 80 default_server;
+  listen [::]:80 default_server;
 
-  # server_name your-ipv4-dns;
+  server_name your-ipv4-dns;
 
-  # location / {
-    # proxy_pass http://0.0.0.0:8080;
-    # proxy_http_version 1.1;
-    # proxy_set_header Connection "upgrade";
-    # proxy_set_header Host $host;
-    # proxy_set_header Upgrade $http_upgrade;
-    # proxy_set_header X-Real-IP $remote_addr;
-    # proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-  # }
-# }
+  location / {
+    proxy_pass http://0.0.0.0:8080;
+    proxy_http_version 1.1;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Host $host;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  }
+}
 ```
 </details>
 
