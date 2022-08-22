@@ -1,4 +1,4 @@
-# Express & TypeScript Demo Project for CI/CD Pipeline between GitLab and AWS EC2
+# Express & TypeScript Demo Project for GitLab CI/CD Pipeline
 
 This template project is created for implementation of CI/CD Pipeline between GitLab and AWS EC2.
 
